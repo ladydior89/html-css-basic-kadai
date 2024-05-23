@@ -1,0 +1,42 @@
+body {
+        /*あとでフォントなおす*/
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", meiryo, Arial, sans-serif;
+}
+
+/*PC用のスタイル*/
+/*横幅設定*/
+    body {
+        max-width: 100%;
+        min-width: 960px;
+        margin: 0 auto;
+    }
+
+/*ヘッダー*/
+    header {
+        display: flex;
+        justify-content: space-between
+    }
+
+    /*ナビゲーションレイアウト*/
+    #nav-pc {
+        font-size: 34px;
+        padding: 0, 20px;
+    }
+
+    /*ナビゲーションリンクの装飾設定*/
+    #nav-pc > home {
+        margin:0 0 0 20px;
+        padding: 0, 20px;
+        border-style:solid;
+        border-width:1px
+        width:198.52;
+        height:51px;
+    }
+
+    /*メイン画像*/
+   .main-pic {
+    background-position-y: center;
+    width: 100vw;
+    margin: 0 ;
+   } 
+
